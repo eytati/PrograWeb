@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+       @Html.Partial("_Head")
+    </head>
+    <body class="travel_home">
+        @Html.Partial("_PageLoading")
+        <div id="travel_wrapper">
+            @Html.Partial("_Header")
+            @RenderBody()
+            @Html.Partial("_Footer")
+        </div>
+        @Html.Partial("_Scripts")
+    </body>
+</html>
