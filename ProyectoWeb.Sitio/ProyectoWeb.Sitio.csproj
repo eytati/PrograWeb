@@ -209,6 +209,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PaquetesController.cs" />
+    <Compile Include="Controllers\PromocionesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -479,6 +481,15 @@
     <Content Include="Views\Home\Irlanda.cshtml" />
     <Content Include="Views\Home\Canada.cshtml" />
     <Content Include="Views\Home\Australia.cshtml" />
+    <Content Include="Views\Home\InformacionDetallada.cshtml" />
+    <Content Include="Views\Home\Destinos.cshtml" />
+    <Content Include="Views\Home\Promociones.cshtml" />
+    <Content Include="Views\Paquetes\Familiar.cshtml" />
+    <Content Include="Views\Paquetes\Grupal.cshtml" />
+    <Content Include="Views\Paquetes\Index.cshtml" />
+    <Content Include="Views\Paquetes\Individual.cshtml" />
+    <Content Include="Views\Paquetes\Pareja.cshtml" />
+    <Content Include="Views\Promociones\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

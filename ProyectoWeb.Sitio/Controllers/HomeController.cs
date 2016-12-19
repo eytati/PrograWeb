@@ -40,5 +40,13 @@ namespace ProyectoWeb.Sitio.Controllers
             return View();
         }
 
+        public ActionResult InformacionDetallada()
+        {
+            return View();
+        }
+        public ActionResult Destinos()
+        {
+            return View();
+        }
     }
 }
