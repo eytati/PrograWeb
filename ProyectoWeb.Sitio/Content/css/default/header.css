@@ -17,13 +17,18 @@ Copyright (c) 2016 Himanshu Softtech
 	float: left;
 	z-index: 999;
 }
+
+/*Es la linea verde en la parte superior de la pag*/
 .header_top {
 	width: 100%;
 	float: left;
-	min-height: 60px;
+	min-height: 40px;
 	background-color: #86b817;
 	line-height: 60px;
 }
+
+/*TODO  
+    Borrar 
 .header_top p {
 	margin-bottom: 0px;
 	color: #fff;
@@ -33,7 +38,9 @@ Copyright (c) 2016 Himanshu Softtech
 }
 .header_top p span {
 	font-size: 18px;
-}
+}*/
+
+
 /**** Top Menu start ****/
 .top_menu {
 	width: 100%;
@@ -491,7 +498,7 @@ Copyright (c) 2016 Himanshu Softtech
 	margin: 0 auto;
 }
 .header_top{
-	line-height: 30px;
+	line-height: 10px;
 	text-align: center;
 	padding: 10px 0;
 	}

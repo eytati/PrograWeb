@@ -26,5 +26,19 @@ namespace ProyectoWeb.Sitio.Controllers
 
             return View();
         }
+
+        public ActionResult Australia()
+        {
+            return View();
+        }
+        public ActionResult Irlanda()
+        {
+            return View();
+        }
+        public ActionResult Canada()
+        {
+            return View();
+        }
+
     }
 }

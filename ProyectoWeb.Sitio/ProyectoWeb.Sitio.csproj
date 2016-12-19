@@ -476,6 +476,9 @@
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_Scripts.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Irlanda.cshtml" />
+    <Content Include="Views\Home\Canada.cshtml" />
+    <Content Include="Views\Home\Australia.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
