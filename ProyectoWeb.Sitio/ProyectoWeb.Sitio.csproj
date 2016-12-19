@@ -271,6 +271,7 @@
     <Content Include="Content\images\Home\Cataratas.jpg" />
     <Content Include="Content\images\Home\Chicago.JPG" />
     <Content Include="Content\images\Home\Dancing Building.jpg" />
+    <Content Include="Content\images\Home\dublin.jpg" />
     <Content Include="Content\images\Home\Fogata.JPG" />
     <Content Include="Content\images\Home\Gente en la playa.jpg" />
     <Content Include="Content\images\Home\GlassDreams1.jpg" />
@@ -303,6 +304,8 @@
     <Content Include="Content\images\Home\Pyramid.jpg" />
     <Content Include="Content\images\Home\RainDropsThree.jpg" />
     <Content Include="Content\images\Home\seguro.jpg" />
+    <Content Include="Content\images\Home\Sydney-Opera-House.jpg" />
+    <Content Include="Content\images\Home\Sydney_Opera.jpg" />
     <Content Include="Content\images\Home\Tren.JPG" />
     <Content Include="Content\images\Hotels\bg_overlay.png" />
     <Content Include="Content\images\Hotels\next_iocn.png" />
