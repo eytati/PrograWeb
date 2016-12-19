@@ -27,6 +27,7 @@ Copyright (c) 2016 Himanshu Softtech
 	line-height: 60px;
 }
 
+/*Borrar*/
 /*TODO  
     Borrar 
 .header_top p {
@@ -42,7 +43,7 @@ Copyright (c) 2016 Himanshu Softtech
 
 
 /**** Top Menu start ****/
-.top_menu {
+/*.top_menu {
 	width: 100%;
 	float: left;
 	margin: 0 auto;
@@ -150,20 +151,23 @@ Copyright (c) 2016 Himanshu Softtech
 }
 .top_menu ul.sub-menu li a:hover {
 	color: #86b817;
-}
+}*/
 /**** Top Menu end ****/
 	
 
-
+/*Barra blanca en donde esta el menu y logo*/
 .header_bottom {
 	width: 100%;
 	float: left;
-	background-color: #FFF;
+	background-color: #fff;
 }
+/*Caracteristicas del logo de la empresa*/
 .travel_logo a {
 	display: block;
 	line-height: 95px;
 }
+
+/*Inicia todo el comportamiento visual de la barra del menu*/
 .main_menu {
 	width: 100%;
 	float: left;
@@ -182,15 +186,14 @@ Copyright (c) 2016 Himanshu Softtech
 .main_menu > ul > li > a {
 	color: #2d3e50;
 	text-transform: uppercase;
-	display: block;
-	padding: 0 17px;
+	display: inline-block;
+	padding: 0 12px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	line-height: 110px;
+	line-height: 100px;
 	position: relative;
 }
-
 .main_menu > ul > li > a:after {
 	content: "";
 	height: 3px;
@@ -218,9 +221,10 @@ Copyright (c) 2016 Himanshu Softtech
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-.main_menu > ul > li:last-child > a {
-	
-}
+
+
+
+/*Inicia todo el comportamiento visual del sub menu*/
 .main_menu > ul > li > ul.sub-menu {
 	position: absolute;
 	min-width: 195px;
@@ -355,6 +359,8 @@ Copyright (c) 2016 Himanshu Softtech
 	-o-animation: travel_fadeInRight 0.2s;
 	animation: travel_fadeInRight 0.2s;
 }
+
+
 .main_menu > ul > li.active > a:after {
 	background-color: #86b817;
 	width: 100%;
@@ -468,16 +474,17 @@ Copyright (c) 2016 Himanshu Softtech
 	box-shadow: none;
 }
 	
-	
-/**** Menu end ****/	
+/*Finalizacion del menu*/	
 
 
+/*Configuracion responssive*/
 
-/* Large desktop */
+/*Esta regla no esta haciendo nada, porque no se ejecuta, es la resolucion de la pantalla */
 @media (max-width: 1200px) {
 }
  
-/* Portrait tablet to landscape and desktop */
+
+/* Esto es para configurar para una tablet */
 @media (min-width: 768px) and (max-width: 979px) {
 .top_menu ul li a{
 	padding: 0 5px;
@@ -491,7 +498,7 @@ Copyright (c) 2016 Himanshu Softtech
 }
 }
 
-/* Landscape phone to portrait tablet */
+/* Esto es para configurar tablet o celular */
 @media (max-width: 767px) {
 .travel_logo {
 	text-align: center;
@@ -650,7 +657,7 @@ Copyright (c) 2016 Himanshu Softtech
 	}		
 }
  
-/* Landscape phones and down */
+/* Un celular */
 @media (max-width: 370px) {
 .main_menu{
     max-width: 220px;
@@ -676,9 +683,8 @@ Copyright (c) 2016 Himanshu Softtech
 	}	
 }
 
-
-/* login signup popup checkbox css start */
-
+/*Borrar*/
+/* login signup popup checkbox css start
 .popup_inner label {
     position: relative;
     padding-left: 33px;
@@ -712,4 +718,4 @@ Copyright (c) 2016 Himanshu Softtech
 .popup_inner input[type=checkbox]:checked + label:before{
 	border-color:#86b817;
 }
-/* login signup popup checkbox css start */
+login signup popup checkbox css start */

@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-2 col-sm-2">
                     <div class="travel_logo">
-                        <a href="Home_01.html"><img src="svg/Logo.svg" alt="logo" /></a>
+                        <a href="@Url.Action("Index", "Home")"><img src="~/Content/svg/Logo.svg" alt="logo" /></a>
                     </div>
                 </div>
                 <div class="col-md-10 col-sm-10">
@@ -20,58 +20,35 @@
                                 <a href="@Url.Action("Index", "Home")">Inicio</a>
                             </li>
                             <li>
-                                <a href="Tour_Home.html">tours</a>
+                                <a href="@Url.Action("Index","Paseos")">Paseos</a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="@Url.Action("Destinos","Home")">Destinos</a>
+                                        <a href="@Url.Action("Destinos","Paseos")">Destinos</a>
                                         <ul class="sub-menu">
-                                            <li><a href="@Url.Action("Australia", "Home")">Australia</a></li>
-                                            <li><a href="@Url.Action("Irlanda", "Home")">Irlanda</a></li>
-                                            <li><a href="@Url.Action("Canada", "Home")">Canada</a></li>
+                                            <li><a href="@Url.Action("Australia", "Paseos")">Australia</a></li>
+                                            <li><a href="@Url.Action("Irlanda", "Paseos")">Irlanda</a></li>
+                                            <li><a href="@Url.Action("Canada", "Paseos")">Canada</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="@Url.Action("InformancionDetallada", "Home")">Informacion Detallada</a></li>
+                                    <li><a href="@Url.Action("InformancionDetallada", "Paseos")">Informacion Detallada</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <a href="@Url.Action("Index","Paquetes")">Paquetes</a>
                                 <ul class="sub-menu">
-                                    <li><a href="Hotel-Home.html">Individual</a></li>
-                                    <li><a href="Hotel-Grid-View.html"></a>Pareja</li>
-                                    <li><a href="Hotel-list-View.html">Grupal</a></li>
-                                    <li><a href="Hotel-Details.html">Familiar</a></li>
+                                    <li><a href="@Url.Action("Individual","Paquetes")">Individual</a></li>
+                                    <li><a href="@Url.Action("Pareja","Paquetes")">Pareja</a></li>
+                                    <li><a href="@Url.Action("Grupal","Paquetes")l">Grupal</a></li>
+                                    <li><a href="@Url.Action("Familiar","Paquetes")">Familiar</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="Flight-Home.html">flights</a>
+                                <a href="@Url.Action("Index","Promociones")">Promociones</a>
                                 <ul class="sub-menu">
                                     <li><a href="Flight-Home.html">flight-Home</a></li>
-                                    <li><a href="Flights-Grid-with-sidebar.html">flights-Grid-with-sidebar</a></li>
-                                    <li><a href="Flights-List-view.html">flights-list-View</a></li>
-                                    <li><a href="Flights-Details.html">flights-Details</a></li>
-                                    <li><a href="Flights-Booking.html">flights-Booking</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">cars</a></li>
-                            <li><a href="">special offers</a></li>
                             <li><a href="Contact.html">contact</a></li>
-                            <li>
-                                <a href="#">pages</a>
-                                <ul class="sub-menu">
-                                    <li><a href="About.html">About</a></li>
-                                    <li><a href="Services.html">services</a></li>
-                                    <li><a href="Blog.html">blog</a></li>
-                                    <li><a href="Blog_Detail.html">blog-Details</a></li>
-                                    <li><a href="Tour_Gallery_1_Columns.html">Tour-Gallery-1-Columns</a></li>
-                                    <li><a href="Tour_Gallery_2_Columns.html">Tour-Gallery-2-Columns</a></li>
-                                    <li><a href="Tour_Gallery_3_Columns.html">Tour-Gallery-3-Columns</a></li>
-                                    <li><a href="Offers.html">Offers</a></li>
-                                    <li><a href="Event.html">Event</a></li>
-                                    <li><a href="Coming_soon.html">Coming-soon</a></li>
-                                    <li><a href="404_Error.html">404-Error</a></li>
-
-                                </ul>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -79,4 +56,3 @@
         </div>
     </div>
 </header>
-<!--Header end--> 
