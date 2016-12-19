@@ -39,7 +39,7 @@ select{
    color: #808b8d;
 }
 
-.submit_field input::-webkit-input-placeholder{
+/*.submit_field input::-webkit-input-placeholder{
 	color:#fff;
 }
 .submit_field input::-moz-input-placeholder{
@@ -47,7 +47,7 @@ select{
 }
 .submit_field input::-ms-input-placeholder{
 	color:#fff;
-}
+}*/
 
 /*-------placeholder css-----*/
 .inner_ovelay, img, .submit_subscribe, .feature_overlay, .feature_box_content, .feature_overlay h4, .overlay_package, a, .large_slide_btn, i, .feature_overlay {
@@ -113,14 +113,14 @@ select{
 
 
 
-.slider_form_main{
-}
-.slider_tabs{
+/*.slider_form_main{
+}*/
+/*.slider_tabs{
 }
 	.slider_tabs .wsa_tab ul li {
     float: left;
     list-style: none;
-}
+}*/
 .main_content_form{
 		float:left;
 		width:100%;
@@ -135,7 +135,7 @@ select{
     padding: 30px 35px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
-.slider_tabs .wsa_tab ul li {
+/*.slider_tabs .wsa_tab ul li {
     float: left;
     list-style: none;
   
@@ -152,19 +152,19 @@ select{
 .slider_tabs .wsa_tab ul li a.active {
     background: #86b817;
     border-color: transparent;
-}
+}*/
 .slider_tab_main {
     position: relative;
     float: left;
     width: 100%;
 }
-.home_tabs_search {
+/*.home_tabs_search {
     position: relative;
     bottom: 0;
     margin-top: -72px;
     float: left;
     width: 100%;
-}
+}*/
 .pull_left{
 		float:left;
 }
@@ -172,15 +172,15 @@ select{
 		margin-right:1%;
 		position:relative;
 }
-.destination_field {
+/*.destination_field {
     width: 213px;
-}
-.check_in_field {
+}*/
+/*.check_in_field {
     width: 165px;
-}
-.room_select_field {
+}*/
+/*.room_select_field {
     width: 98px;
-}
+}*/
 .main_content_form input, .main_content_form select {
     width: 100%;
 }
@@ -202,13 +202,13 @@ select{
     padding-left: 12px;
     border-radius: 0px;
 	color: #2b2b2b;
-}
+/*}
 .submit_field {
     width: 165px;
     margin-right: 0px !important;
     margin-top: 25px;
-}
-.submit_field .tab_search {
+}*/
+/*/*.submit_field .tab_search {
     position: absolute;
     top: 0;
     right: 0;
@@ -217,14 +217,14 @@ select{
     background: #fdb714;
     border-radius: 0px;
     color: #fff;
-}
+}*/*/
 .main_content_form .pull_left label {
     text-transform: uppercase;
     color: #2b2b2b;
     font-family: Montserrat;
     font-weight: 400;
 }
-.submit_field  .search_tabs {
+/*.submit_field  .search_tabs {
     background: #86b817;
     color: #ffffff;
     font-family: Lato;
@@ -232,7 +232,7 @@ select{
     text-align: center;
     border: none;
     padding-right: 38px;
-}
+}*/
 
 /*----world section css start-----*/
 
@@ -406,25 +406,25 @@ select{
 /*----world section css end-----*/
 
 /* resonsive media query */
-@media (min-width:992px) and (max-width:1200px){
-	.destination_field {
+/*@media (min-width:992px) and (max-width:1200px){*/
+	/*.destination_field {
 		width: 175px;
-	}
-	.check_in_field {
+	}*/
+	/*.check_in_field {
 		width: 130px;
-	}
-	.room_select_field {
+	}*/
+	/*.room_select_field {
 		width: 85px;
-	}
-	.submit_field {
+	}*/
+	/*.submit_field {
 	  width: 125px;
-	}
+	}*/
 	
 	/*-----ractangle boxes---*/
-	.ractangle_box_cover .ractangle_inner .inner_ovelay{
+	/*.ractangle_box_cover .ractangle_inner .inner_ovelay{
 		padding-top: 70px;
-	}
-}
+	}*/
+/*}*/
 
 /* feature boxes css start */
 
@@ -799,9 +799,9 @@ select{
 /*----media query start----*/
 
 @media (max-width:991px){
-		.destination_field, .check_in_field, .room_select_field, .submit_field{
+		/*.destination_field, .check_in_field, .room_select_field, .submit_field{
 				width:100%;
-		}
+		}*/
 	.home_tabs_search {
 		position: relative;
 	}
@@ -910,12 +910,12 @@ select{
 .hnymn_package_button {
     text-align: center;
 }
-.slider_tabs .wsa_tab ul li a {
+/*.slider_tabs .wsa_tab ul li a {
     font-size: 15px;
     padding: 4px 15px;
 }
 
-}
+}*/
 
 @media (max-width:767px){
 	.home_tabs_search{
