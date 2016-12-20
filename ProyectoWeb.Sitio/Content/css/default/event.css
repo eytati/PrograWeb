@@ -9,7 +9,7 @@ Version:	1.0.0
 Assigned to:	Themeforest
 -------------------------------------------------------------------*/
 /*------------------------- event calendar start --------------------------- */
-.travel_event_calendar{
+/*.travel_event_calendar{
  width:100%;
  float:left;
  }
@@ -205,7 +205,7 @@ ul.social_reviews li a {
     float: left;
 }
 
-/*------slide navigation---*/
+/*------slide navigation---
 .events_thumb_slider .owl-nav div {
     position: absolute;
     left: 61%;
@@ -458,11 +458,11 @@ ul.social_reviews li a {
 }
 .lates_event_right_side .doller_event {
     color: #2c3e50;
-    font-size: 16px;
+    font-size: 16px;*/
 }
 /*-----media query start------*/
 
-@media (max-width:767px){
+/*@media (max-width:767px){
 .Travelite_event_form .input_wrapper input {
     width: 100%;
 	 margin-bottom: 6px;
@@ -476,4 +476,4 @@ ul.social_reviews li a {
 	.slide_right_thumb img {
 	margin-right:0px !important;
 	margin-bottom:10px;}
-}
+}*/

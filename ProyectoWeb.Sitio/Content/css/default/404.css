@@ -1,9 +1,9 @@
-/*
+/*/*
 Copyright (c) 2016 Himanshu Softtech
 ------------------------------------------------------------------
 [Master 404 Error Page Stylesheet]
 -------------------------------------------------------------------*/
-.Travelite_error_bg{
+./*Travelite_error_bg{
 		background:url("../../svg/error_bg_img.svg") no-repeat;
 		background-size: cover;
 }
@@ -114,14 +114,14 @@ Copyright (c) 2016 Himanshu Softtech
 }
 
 /* responsive media query start */
-@media (max-width:480px){
+/*@media (max-width:480px){
 	.bottom_searching_part {
 		width: 80%;
 	}
 	.Travelite_error_heading h3 {
 		font-size: 16px;
 	}
-}
+}*/
 
 
 /* responsive media query end */

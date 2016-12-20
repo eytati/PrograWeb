@@ -1,8 +1,8 @@
-/*
-Copyright (c) 2016 Himanshu Softtech
+
+/*Copyright (c) 2016 Himanshu Softtech
 ------------------------------------------------------------------
 [Master comming-soon Stylesheet]
--------------------------------------------------------------------*/
+-------------------------------------------------------------------
 .Travelite_coming_soon_wrapper{
 		
 }
@@ -112,7 +112,7 @@ Copyright (c) 2016 Himanshu Softtech
     height:550px;	
 }
 
-/*------------media query start----------*/
+------------media query start----------
 
 @media (max-width:767px){
 	.coming_social_icons {
@@ -140,4 +140,4 @@ Copyright (c) 2016 Himanshu Softtech
 		
 	}
 		
-}
+}*/

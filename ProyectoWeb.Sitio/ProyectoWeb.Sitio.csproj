@@ -318,8 +318,6 @@
     <Content Include="Content\images\offer\hex_bg.png" />
     <Content Include="Content\images\offer\hex_bg_hover.png" />
     <Content Include="Content\images\Payment-Images.png" />
-    <Content Include="Content\images\portfolio\tour-gallery-c3\australia\placehold1.png" />
-    <Content Include="Content\images\portfolio\tour-gallery-c3\egypt\placehold1.png" />
     <Content Include="Content\images\tour-booking\card1.jpg" />
     <Content Include="Content\images\tour-booking\card2.jpg" />
     <Content Include="Content\images\tour-booking\card3.jpg" />
@@ -502,6 +500,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\images\Paseos\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

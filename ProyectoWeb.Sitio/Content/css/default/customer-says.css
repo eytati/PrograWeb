@@ -4,7 +4,7 @@ Copyright (c) 2016 Himanshu Softtech
 [Master Customer Says Element Stylesheet]
 -------------------------------------------------------------------*/
 
-.customer_says_wrapper{
+/*.customer_says_wrapper{
 	width:100%;
 	float:left;
 	margin-bottom:90px;
@@ -215,5 +215,5 @@ Copyright (c) 2016 Himanshu Softtech
 	}				
 .customer_says_slider .owl-carousel .owl-controls .owl-nav > div:hover svg polygon{
 	fill:#fdb714 !important;
-	}	
+	}*/	
 	

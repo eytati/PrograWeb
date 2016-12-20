@@ -3,7 +3,7 @@ Copyright (c) 2016 Himanshu Softtech
 ------------------------------------------------------------------
 [Master Blog Stylesheet]
 -------------------------------------------------------------------*/
-.post_wrapper{
+/*.post_wrapper{
 	width:100%;
 	float:left;
 	padding-left:70px;
@@ -192,10 +192,10 @@ Copyright (c) 2016 Himanshu Softtech
 	}
 .blog_single_page_wrapper .post_share a.google-plus:hover{
 	color:#dd4b39;
-	}		
+	}*/		
 
 /*author detail start*/
-.author_detail{
+/*.author_detail{
 	width:100%;
 	float:left;
 	padding-bottom:30px;
@@ -222,13 +222,13 @@ Copyright (c) 2016 Himanshu Softtech
 	}	
 .author_detail .detail p{
 	padding-left:30px;
-	border-left:1px solid #cccccc;
+	border-left:1px solid #cccccc;*/
 	}	
 /*author detail end*/	
 
 
 /*Comment start*/
-#comments{
+/*#comments{
 	width:100%;
 	float:left;
 	}
@@ -384,12 +384,12 @@ Copyright (c) 2016 Himanshu Softtech
 	display:none;
 	}
 #comments ol ul li > div > .article .comment-body .comment-date{
-	right:60px;
+	right:60px;*/
 	}					
 /*Comment end*/	
 
 /*Comment reply start*/
-#respond{
+/*#respond{
 	width:100%;
 	float:left;
 	}
@@ -433,24 +433,24 @@ Copyright (c) 2016 Himanshu Softtech
 	}	
 #respond .comment-form p.comment-form-comment{
 	margin-bottom:0;
-	}	
+	}*/	
 					
 /*Comment reply end*/
 
 /* Large desktop */
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
 
-}
+}*/
  
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+/*@media (min-width: 768px) and (max-width: 979px) {
 .post_wrapper{
 	padding-left: 0px;
 	}
-}
+}*/
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 .post_wrapper{
     padding-left: 0px;
 	}
@@ -488,10 +488,10 @@ Copyright (c) 2016 Himanshu Softtech
 	}	
 
 	
-}
+}*/
  
 /* Landscape phones and down */
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
 #comments ol li {
     padding-left: 60px;
 }	
@@ -531,4 +531,4 @@ Copyright (c) 2016 Himanshu Softtech
 	top: 45px;
 	width: 25px;	
 }	
-}				
+}*/

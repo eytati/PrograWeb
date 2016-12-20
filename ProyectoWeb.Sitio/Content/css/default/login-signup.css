@@ -6,7 +6,7 @@ Copyright (c) 2016 Himanshu Softtech
 
 /*-------login css start-------*/
 
-.social_links_login ul li:after, .sub_signup {
+/*.social_links_login ul li:after, .sub_signup {
 	-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
@@ -184,13 +184,13 @@ a.forgot_link {
 
 .Travelite_login_form{
 		display:none;
-}
+}*/
 
 
 /*-------login css End-------*/
 
 /*-------signup form css start-----*/
-.Travelite_signup_form .popup_inner form {
+/*/*.Travelite_signup_form .popup_inner form {
     border-bottom: none;
     padding-bottom: 6px;
 }
@@ -244,7 +244,7 @@ input.checkbox_login {
 }
 /*-------signup form css end-----*/
 
-.login_check_box {
+./*login_check_box {
     float: left;
     width: 100%;
     padding-top: 22px;
@@ -262,4 +262,4 @@ input.checkbox_login {
 .popup_alert_main{
 		left:0;
 }
-}
+}*/

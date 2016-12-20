@@ -3,7 +3,7 @@ Copyright (c) 2016 Himanshu Softtech
 ------------------------------------------------------------------
 [Master Portfolio Stylesheet]
 -------------------------------------------------------------------*/
-#portfolio-filter{
+/*#portfolio-filter{
 	list-style:none;
 	margin: 80px 0 50px;
 	padding:0;
@@ -47,7 +47,7 @@ Copyright (c) 2016 Himanshu Softtech
 }
 
 /* Tour Gallery 1 Columns start */
-.max-col-1 .portfolio-item{
+/*.max-col-1 .portfolio-item{
 	width:100%;
 	position:relative;
 	margin-bottom:31px;
@@ -101,7 +101,7 @@ Copyright (c) 2016 Himanshu Softtech
 /* Tour Gallery 1 Columns end */
 
 /* Tour Gallery 2 Columns start */
-.max-col-2 .portfolio-item{
+/*.max-col-2 .portfolio-item{
 	position:relative;
 	margin-bottom:31px;
 	overflow:hidden;
@@ -163,13 +163,13 @@ Copyright (c) 2016 Himanshu Softtech
 .max-col-2 .portfolio-item .portfolio-content .customNavigation a:hover{
 	color:#fff;
 	background-color:#fdb714;
-}
+}/*/
 /* Tour Gallery 2 Columns end */
 
 
 /* Tour Gallery 3 Columns start */
 
-.max-col-3 .portfolio-item{
+./*max-col-3 .portfolio-item{
 	position:relative;
 	margin-bottom:31px;
 	overflow:hidden;
@@ -231,21 +231,21 @@ Copyright (c) 2016 Himanshu Softtech
 .max-col-3 .portfolio-item .portfolio-content .customNavigation a:hover{
 	color:#fff;
 	background-color:#fdb714;
-}
+}*/
 /* Tour Gallery 3 Columns end */
 
 
 
 
 /* Large desktop */
-@media (max-width: 1200px) {
+/*/*@media (max-width: 1200px) {
 .max-col-1 .portfolio-item .portfolio-content {
     padding: 100px 40px;	
 }
 }
  
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+/*@media (min-width: 768px) and (max-width: 979px) {
 .max-col-1 .portfolio-item .portfolio-content {
     padding: 60px 40px;	
 }
@@ -253,11 +253,11 @@ Copyright (c) 2016 Himanshu Softtech
 .max-col-3 .portfolio-item .portfolio-content{
     padding: 10% 15%;	
 }
-}
+}*/
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-.max-col-1 .portfolio-item .portfolio-content .portfolio-meta h2{
+/*@media (max-width: 767px) {*/
+/*.max-col-1 .portfolio-item .portfolio-content .portfolio-meta h2{
 	margin-top:0;
 }	
 .max-col-1 .portfolio-item .portfolio-content {
@@ -278,10 +278,10 @@ Copyright (c) 2016 Himanshu Softtech
     padding: 20% 15%;	
 }
 	
-}
+}*/
  
 /* Landscape phones and down */
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
 .max-col-2 .portfolio-item .portfolio-content,
 .max-col-3 .portfolio-item .portfolio-content{
     padding: 5% 15%;	
@@ -297,4 +297,4 @@ Copyright (c) 2016 Himanshu Softtech
 		top: 40px;
 	}
 	
-}
+}*/*/
