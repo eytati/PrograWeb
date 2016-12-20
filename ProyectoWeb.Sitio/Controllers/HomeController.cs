@@ -22,7 +22,7 @@ namespace ProyectoWeb.Sitio.Controllers
 
         public ActionResult Contacto()
         {
-            ViewBag.Message = "Your contact page.";
+            //ViewBag.Message = "Your contact page.";
 
             return View();
         }

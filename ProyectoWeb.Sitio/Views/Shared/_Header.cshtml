@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-2 col-sm-2">
                     <div class="travel_logo">
-                        <a href="@Url.Action("Index", "Home")"><img src="~/Content/svg/Logo.svg" alt="logo" /></a>
+                        <a href="@Url.Action("Index", "Inicio")"><img src="~/Content/svg/Logo.svg" alt="logo" /></a>
                     </div>
                 </div>
                 <div class="col-md-10 col-sm-10">
@@ -17,7 +17,7 @@
                     <div class="main_menu">
                         <ul>
                             <li class="active">
-                                <a href="@Url.Action("Index", "Home")">Inicio</a>
+                                <a href="@Url.Action("Index", "Inicio")">Inicio</a>
                             </li>
                             <li>
                                 <a href="@Url.Action("Index","Paseos")">Paseos</a>
@@ -49,7 +49,9 @@
                                 </ul>
                             </li>
                             <li>
-                            <a href="Contact.html">Contacto</a></li>
+                                <a href="@Url.Action("Index","Contacto")">Contacto</a>
+
+                            </li>
                         </ul>
                     </div>
                 </div>
