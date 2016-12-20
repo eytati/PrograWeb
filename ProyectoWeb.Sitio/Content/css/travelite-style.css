@@ -477,14 +477,14 @@ input {
 	transform: rotate(-60deg);
 }
 .hex-in2.hex-area {
-	background-image: url('../images/offer/hex_bg.png');
+	background-color: #808080;
 	background-size: 100% 97%;
 	background-repeat: no-repeat;
 	background-position-y: 2px;
 	transition: all 0.5s ease;
 }
 .hex-in1:hover .hex-in2.hex-area {
-	background-image: url('../images/offer/hex_bg_hover.png');
+	background-color:#808080;
 	background-size: 100% 97%;
 	background-repeat: no-repeat;
 	background-position-y: 2px;
