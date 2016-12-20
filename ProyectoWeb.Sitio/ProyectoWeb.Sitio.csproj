@@ -268,12 +268,13 @@
     <Content Include="Content\images\Home\Bote_Bayahibe4.jpg" />
     <Content Include="Content\images\Home\Budapest.jpg" />
     <Content Include="Content\images\Home\canadian-flag.jpg" />
+    <Content Include="Content\images\Home\caption.jpg" />
     <Content Include="Content\images\Home\Cataratas.jpg" />
     <Content Include="Content\images\Home\Chicago.JPG" />
     <Content Include="Content\images\Home\Dancing Building.jpg" />
+    <Content Include="Content\images\Home\dublin.jpg" />
     <Content Include="Content\images\Home\Fogata.JPG" />
     <Content Include="Content\images\Home\Gente en la playa.jpg" />
-    <Content Include="Content\images\Home\GlassDreams1.jpg" />
     <Content Include="Content\images\Home\Guanacaste.JPG" />
     <Content Include="Content\images\Home\guia.jpg" />
     <Content Include="Content\images\Home\Home4\lefticon.png" />
@@ -299,10 +300,9 @@
     <Content Include="Content\images\Home\ireland-flag.jpg" />
     <Content Include="Content\images\Home\line-circle2.png" />
     <Content Include="Content\images\Home\MejorViaje.jpg" />
-    <Content Include="Content\images\Home\Nina de Bayahibe.jpg" />
-    <Content Include="Content\images\Home\Pyramid.jpg" />
-    <Content Include="Content\images\Home\RainDropsThree.jpg" />
     <Content Include="Content\images\Home\seguro.jpg" />
+    <Content Include="Content\images\Home\Sydney-Opera-House.jpg" />
+    <Content Include="Content\images\Home\Sydney_Opera.jpg" />
     <Content Include="Content\images\Home\Tren.JPG" />
     <Content Include="Content\images\Hotels\bg_overlay.png" />
     <Content Include="Content\images\Hotels\next_iocn.png" />
@@ -458,7 +458,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -499,6 +498,7 @@
     <Content Include="Views\Paseos\Canada.cshtml" />
     <Content Include="Views\Paseos\InformacionDetallada.cshtml" />
     <Content Include="Views\Paseos\Destinos.cshtml" />
+    <Content Include="Views\Home\Contacto.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
