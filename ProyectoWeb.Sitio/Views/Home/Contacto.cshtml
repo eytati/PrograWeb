@@ -1,345 +1,367 @@
-﻿@{
-    ViewBag.Title = "About";
+﻿
+@{
+    ViewBag.Title = "Contacto";
+    Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<p>Use this area to provide additional information.</p>
+<!DOCTYPE html>
+<!--
+Template Name: Travelite - Tours and Travels Online Booking HTML
+Version: 1.0.0
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>Travelite - Tours and Travels Online Booking HTML</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="Travelite - Tours and Travels Online Booking HTML" />
+    <meta name="keywords" content="Travel, html template, Travelite template">
+    <meta name="author" content="Kamleshyadav" />
+    <meta name="MobileOptimized" content="320">
+    <!--srart theme style -->
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <!-- end theme style -->
+    <!-- favicon links -->
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+</head>
+<h2>Contacto</h2>
 <body>
+    <!--Page main section start-->
+    <div id="travel_wrapper">
+        <!--Header start-->
+        <header id="header_wrapper">
+            <div class="header_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <p><i class="fa fa-phone"></i> For Support? Call Us: <span>+1 758-673-2214</span></p>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="top_menu">
+                                <ul>
+                                    <li>
+                                        <a href=""><i class="fa fa-globe"></i> Languages</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="">English</a></li>
+                                            <li><a href="">France</a></li>
+                                            <li><a href="">German</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">My Account</a></li>
+                                    <li class="Travelite_login_alert"><a href="#">Login</a></li>
+                                    <li class="Travelite_signup_alert"><a href="#">Signup</a></li>
+                                    <li>
+                                        <a href="">USD</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="">INR</a></li>
+                                            <li><a href="">USD</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- popup form Start -->
+            <div class="full_width login_wrapper">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-lg-offset-6 col-md-offset-6 col-sm-offset-6">
+                            <!-- login form start -->
+                            <div class="popup_alert_main Travelite_login_form">
+                                <div class="login_heading">
+                                    login
 
+                                    <span class="close_btn"><i class="fa fa-times"></i></span>
+                                </div>
+                                <div class="popup_inner">
+                                    <form>
+                                        <input type="email" name="emaillogin" placeholder="Email Id" class="input_login">
+                                        <input type="password" name="passlogin" placeholder="Password" class="input_login">
+                                        <input type="checkbox" id="login_check" name="checkbox" class="checkbox_login">
+                                        <label for="login_check" class="remember_me">Remember me</label>
+                                        <a href="#" class="forgot_link">Forget password?</a>
+
+                                    </form>
+                                    <div class="have_an_acnt">
+                                        <p>Dont have an account?  <a href="#">Sign up</a></p>
+                                    </div>
+
+                                    <div class="or_line">
+                                        <span>(OR)</span>
+
+                                    </div>
+
+                                    <div class="social_links_login">
+
+                                        <ul>
+                                            <li class="facebook_login"><a href="#"><i class="fa fa-facebook"></i>Login with facebook</a></li>
+                                            <li class="gplus_login"><a href="#"><i class="fa fa-google-plus"></i>Login with Google+</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- login form  End -->
+                            <!-- signup form start -->
+                            <div class="popup_alert_main Travelite_signup_form">
+                                <div class="login_heading">
+                                    signup
+
+                                    <span class="close_btn"><i class="fa fa-times"></i></span>
+                                </div>
+                                <div class="popup_inner">
+                                    <form class="signup_form">
+                                        <input type="text" name="emaillogin" placeholder="First Name" class="input_login">
+                                        <input type="text" name="emaillogin" placeholder="Last Name" class="input_login">
+                                        <input type="email" name="emaillogin" placeholder="Email Id" class="input_login">
+                                        <input type="password" name="passlogin" placeholder="Password" class="input_login">
+                                        <input type="password" name="confpasslogin" placeholder="Confirm Password" class="input_login">
+                                        <input type="checkbox" id="signup_check" name="checkbox" class="checkbox_login">
+                                        <label for="signup_check" class="remember_me">
+                                            I agree the Terms of Service, Privacy Policy, Guest
+                                            Refund Policy, and Host Guarantee Terms.
+                                        </label>
+                                        <input type="submit" value="SIGN UP" class="sub_signup">
+                                    </form>
+
+                                    <div class="or_line">
+                                        <span>(OR)</span>
+
+                                    </div>
+
+                                    <div class="social_links_login">
+
+                                        <ul>
+                                            <li class="facebook_login"><a href="#"><i class="fa fa-facebook"></i>Login with facebook</a></li>
+                                            <li class="gplus_login"><a href="#"><i class="fa fa-google-plus"></i>Login with Google+</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="already_member"> already member? <a href="#">login here</a></div>
+                                </div>
+
+                            </div>
+
+                            <!-- signup form  End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- popup form  End -->
+            <div class="header_bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="travel_logo"> <a href="Home_01.html"><img src="svg/Logo.svg" alt="logo" /></a> </div>
+                        </div>
+                        <div class="col-md-10 col-sm-10">
+                            <a href="javascript:;" class="menu-toggle"></a>
+                            <div class="main_menu">
+                                <ul>
+                                    <li class="active">
+                                        <a href="">home</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="Home_01.html">home-version-1</a></li>
+                                            <li><a href="Home_02.html">home-version-2</a></li>
+                                            <li><a href="Home_03.html">home-version-3</a></li>
+                                            <li><a href="Home_04.html">home-version-4</a></li>
+                                            <li><a href="Home_05.html">home-version-5</a></li>
+                                            <li><a href="Home_06.html">home-version-6</a></li>
+                                            <li><a href="Home_07.html">home-version-7</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="Tour_Home.html">tours</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="Tour_destination.html">Destination</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="tour_australia.html">Australia</a></li>
+                                                    <li><a href="tour_egypt.html">Egypt</a></li>
+                                                    <li><a href="tour_singapore.html">Singapore</a></li>
+                                                    <li><a href="tour_malaysia.html">Malaysia</a></li>
+                                                    <li><a href="tour_india.html">India</a></li>
+                                                    <li><a href="tour_nepal.html">Nepal</a></li>
+                                                    <li><a href="tour_russia.html">Russia</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="Tour-Packages-Details.html">Tour Detail</a></li>
+                                            <li><a href="Tour-Packages-Booking.html">Booking</a></li>
+                                            <li><a href="Tour-Packages-Booking.html">Checkout</a></li>
+                                            <li><a href="Tour-Packages-Grid-View.html">tour-packages-grid-view</a></li>
+                                            <li><a href="Tour-Packages-List-View.html">tour-packages-list-view</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="Hotel-Home.html">hotels</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="Hotel-Home.html">Hotel-Home</a></li>
+                                            <li><a href="Hotel-Grid-View.html">Hotel-Grid-View</a></li>
+                                            <li><a href="Hotel-list-View.html">Hotel-list-View</a></li>
+                                            <li><a href="Hotel-Details.html">Hotel-Details</a></li>
+                                            <li><a href="Hotel-Booking.html">Hotel-Booking</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="Flight-Home.html">flights</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="Flight-Home.html">flight-Home</a></li>
+                                            <li><a href="Flights-Grid-with-sidebar.html">flights-Grid-with-sidebar</a></li>
+                                            <li><a href="Flights-List-view.html">flights-list-View</a></li>
+                                            <li><a href="Flights-Details.html">flights-Details</a></li>
+                                            <li><a href="Flights-Booking.html">flights-Booking</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">cars</a></li>
+                                    <li><a href="">special offers</a></li>
+                                    <li><a href="Contact.html">contact</a></li>
+                                    <li>
+                                        <a href="#">pages</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="About.html">About</a></li>
+                                            <li><a href="Services.html">services</a></li>
+                                            <li><a href="Blog.html">blog</a></li>
+                                            <li><a href="Blog_Detail.html">blog-Details</a></li>
+                                            <li><a href="Tour_Gallery_1_Columns.html">Tour-Gallery-1-Columns</a></li>
+                                            <li><a href="Tour_Gallery_2_Columns.html">Tour-Gallery-2-Columns</a></li>
+                                            <li><a href="Tour_Gallery_3_Columns.html">Tour-Gallery-3-Columns</a></li>
+                                            <li><a href="Offers.html">Offers</a></li>
+                                            <li><a href="Event.html">Event</a></li>
+                                            <li><a href="Coming_soon.html">Coming-soon</a></li>
+                                            <li><a href="404_Error.html">404-Error</a></li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Header end-->
         <!--content body start-->
         <div id="content_wrapper">
             <!--page title start-->
             <div class="page_title" data-stellar-background-ratio="0" data-stellar-vertical-offset="0" style="background-image:url(http://placehold.it/1599x640);">
                 <ul>
-                    <li><a href="javascript:;">About us</a></li>
+                    <li><a href="javascript:;">contact us</a></li>
                 </ul>
             </div>
             <!--page title end-->
             <div class="clearfix"></div>
 
-            <!-- traveller story section start -->
-            <section class="full_width ds_traveller_story">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-md-5 col-sm-8 col-xs-8">
-                            <div class="left_side_slider">
+            <!-- contact map section start -->
+            <div class="full_width tr_contact_map_section">
 
-                                <ul class="about_slider">
-
-                                    <li><img src="http://placehold.it/460x595" alt=""></li>
-                                    <li><img src="http://placehold.it/460x595" alt=""></li>
-                                    <li><img src="http://placehold.it/460x595" alt=""></li>
-
-                                </ul>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-7 col-sm-12 Travelite_about_right_side">
-                            <div class="right_side_details">
-                                <h3>Short Story about <b class="traveller_text_b">Travellers</b></h3>
-                                <p>
-                                    in 2015, We launched Travellers with the belief that other travellers would share our desire to experience authentic adventures in a responsible and sustainable manner. We've grown from a one-man show to a company of over 50 world wide, and from a handful of trips in all over the world to hundreds of adventures spanning the globe... and beyond! Travellers is part of PEAK’s Travel Group of companies, alongside leading small group adventure companies Peregrine, Geckos, Peregrine Reserve, Adventure Tours and The Adventure Company.
-                                    <br />
-                                    <br />
-                                    There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available.
-                                </p>
-                            </div>
-                            <div class="full_width check_lists">
-                                <ul>
-                                    <li><label>integrity</label> <p>-Doing the right thing</p></li>
-                                    <li><label>Responsible</label> <p>-think globel,act local</p></li>
-                                    <li><label>Growth</label> <p>-Stakeholders in our own success</p></li>
-                                    <li><label>Innovation</label> <p>-Thriving on new ideas and embracing change</p></li>
-                                    <li><label>Fun</label> <p>-It’s engrained into who we are and what we do</p></li>
-                                    <li><label>Passion</label> <p>-We are inspired by the work we do and the trips we offer</p></li>
-                                </ul>
-
-                            </div>
-                            <div class="pull_left btn_left">
-                                <a href="#" class="btn_green gallery_btn">view our gallery</a>
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="map_main">
+                    <div id="bigth_googleMap"></div>
 
                 </div>
 
-            </section>
-            <!-- traveller story section End -->
-            <!-- around world sec start -->
-            <div class="full_width around_world_sec">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="section_main">
-                                <div class="icon"><i class="fa fa-anchor"></i></div>
-                                <div class="box_inner">
-                                    <h4 class="box_title">our core values</h4>
-                                    <p>
-                                        By offering adventure-craving travellers an alternative to the resorts, cruises and motorcoach
-                                        tours they were accustomed to, he not only changed the way people looked at their holiday time, but changed the face of travel forever.
-                                    </p>
-
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="section_main">
-                                <div class="icon"><i class="fa fa-thumbs-up"></i></div>
-                                <div class="box_inner">
-                                    <h4 class="box_title">why choose travellers ?</h4>
-                                    <p>
-                                        By offering adventure-craving travellers an alternative to the resorts, cruises and motorcoach
-                                        tours they were accustomed to, he not only changed the way people looked at their holiday time, but changed the face of travel forever.
-                                    </p>
-
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="section_main">
-                                <div class="icon"><i class="fa fa-life-ring"></i></div>
-                                <div class="box_inner">
-                                    <h4 class="box_title">Sustainable Tourism</h4>
-                                    <p>
-                                        By offering adventure-craving travellers an alternative to the resorts, cruises and motorcoach
-                                        tours they were accustomed to, he not only changed the way people looked at their holiday time, but changed the face of travel forever.
-                                    </p>
-
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="section_main">
-                                <div class="icon"><i class="fa fa-users"></i></div>
-                                <div class="box_inner">
-                                    <h4 class="box_title">our core values</h4>
-                                    <p>
-                                        By offering adventure-craving travellers an alternative to the resorts, cruises and motorcoach
-                                        tours they were accustomed to, he not only changed the way people looked at their holiday time, but changed the face of travel forever.
-                                    </p>
-
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="section_main">
-
-                                <div class="icon"><i class="fa fa-trophy"></i></div>
-                                <div class="box_inner">
-                                    <h4 class="box_title">why choose travellers ?</h4>
-                                    <p>
-                                        By offering adventure-craving travellers an alternative to the resorts, cruises and motorcoach
-                                        tours they were accustomed to, he not only changed the way people looked at their holiday time, but changed the face of travel forever.
-                                    </p>
-
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <div class="section_main">
-
-
-                                <div class="icon"><i class="fa fa-link"></i></div>
-                                <div class="box_inner">
-                                    <h4 class="box_title">Sustainable Tourism</h4>
-                                    <p>
-                                        By offering adventure-craving travellers an alternative to the resorts, cruises and motorcoach
-                                        tours they were accustomed to, he not only changed the way people looked at their holiday time, but changed the face of travel forever.
-                                    </p>
-
-                                    <a href="#">read more</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div><!--row End -->
-                </div><!-- container End -->
-            </div><!-- around world sec End -->
-            <!-- team section start -->
-            <div class="full_width team_section">
-                <div class="container">
-                    <div class="row">
-                        <div class="heading_team">
-                            <h3>Team</h3>
-                            <p>Create stunning pages with our powerful admin panel. Functionality and usability combine. Travelllers Deals and Offers on Hotels, Vacation Packages, Flights, Cruises and Car Rentals</p>
-                        </div>
-                        <!-- team first start -->
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="tr_team_wrapper full_width">
-                                <div class="thumb_wrap">
-                                    <img src="http://placehold.it/270x270" class="img-responsive" alt="">
-                                </div>
-                                <div class="tr_team_desc">
-                                    <h4>sara emiley</h4>
-                                    <div class="title_tag">
-                                        CEO
-                                    </div>
-                                    <div class="team_social_media">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-pinterest-p"></i>
-                                        <i class="fa fa-dribbble"></i>
-                                        <i class="fa fa-twitter"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- team first end -->
-                        <!-- team second start -->
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="tr_team_wrapper full_width">
-                                <div class="thumb_wrap">
-                                    <img src="http://placehold.it/270x270" class="img-responsive" alt="">
-                                </div>
-                                <div class="tr_team_desc">
-                                    <h4>steven smith</h4>
-                                    <div class="title_tag">
-                                        Founder
-                                    </div>
-                                    <div class="team_social_media">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-pinterest-p"></i>
-                                        <i class="fa fa-dribbble"></i>
-                                        <i class="fa fa-twitter"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- team second end -->
-                        <!-- team thired start -->
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="tr_team_wrapper full_width">
-                                <div class="thumb_wrap">
-                                    <img src="http://placehold.it/270x270" class="img-responsive" alt="">
-                                </div>
-                                <div class="tr_team_desc">
-                                    <h4>ana levely</h4>
-                                    <div class="title_tag">
-                                        Manager
-                                    </div>
-                                    <div class="team_social_media">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-pinterest-p"></i>
-                                        <i class="fa fa-dribbble"></i>
-                                        <i class="fa fa-twitter"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- team thired end -->
-                        <!-- team fourth start -->
-                        <div class="col-lg-3 col-md-3 col-sm-6">
-                            <div class="tr_team_wrapper full_width">
-                                <div class="thumb_wrap">
-                                    <img src="http://placehold.it/270x270" class="img-responsive" alt="">
-                                </div>
-                                <div class="tr_team_desc">
-                                    <h4>clarke micheal</h4>
-                                    <div class="title_tag">
-                                        Organizer
-                                    </div>
-                                    <div class="team_social_media">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-pinterest-p"></i>
-                                        <i class="fa fa-dribbble"></i>
-                                        <i class="fa fa-twitter"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- team fourth end -->
-                    </div>
-                </div>
             </div>
-            <!-- team section start -->
-            <!-- contact section Start -->
-            <div class="full_width contact_section">
+            <!-- contact map section End -->
+            <!-- contact details section start -->
+            <div class="full_width tr_contact_detais_section">
                 <div class="container">
                     <div class="row">
-                        <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                            <div class="tr_contact_wrap">
-                                <h4>where you would like to go</h4>
-                                <h3 class="tell_us"><b>tell us</b> we will help you</h3>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="conatact_form_ds">
+                                <form>
+                                    <input type="text" name="name" placeholder="Name" class="input_c" required="required">
+                                    <input type="email" name="email" placeholder="Email" class="input_c" required="required">
+                                    <input type="text" name="phone" placeholder="Phone" class="input_c" required="required">
+                                    <textarea class="text_area_c" placeholder="Message" name="msgs"></textarea>
+                                    <input type="submit" value="Send" class="btn_green" id="form_submit">
+                                </form>
+
                             </div>
+
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-lg-offset-1">
-                            <div class="hello_wrapper">
-                                <i class="fa fa-phone"></i>
-                                <div class="tr_contact_wrap">
-                                    <h4>Say Hello</h4>
-                                    <h3 class="contact">1-230-852-436</h3>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-7 col-sm-8 col-lg-offset-2">
+                                    <div class="address_contact_details">
+                                        <div class="address_detais_city">
+                                            Houston:
+                                        </div>
+                                        <ul>
+                                            <li><i class="fa fa-map-marker"></i> 1234, Street Name, City Name.</li>
+                                            <li><i class="fa fa-envelope"></i> Info@travellers.com</li>
+                                            <li><i class="fa fa-phone"></i> +1 235 654 4569</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="address_contact_details">
+                                        <div class="address_detais_city">
+                                            Melbourne:
+                                        </div>
+                                        <ul>
+                                            <li><i class="fa fa-map-marker"></i> 1234, Street Name, City Name.</li>
+                                            <li><i class="fa fa-envelope"></i> Info@travellers.com</li>
+                                            <li><i class="fa fa-phone"></i> +1 235 654 4569</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="address_contact_details">
+                                        <div class="address_detais_city">
+                                            Delhi:
+                                        </div>
+                                        <ul>
+                                            <li><i class="fa fa-map-marker"></i> 1234, Street Name, City Name.</li>
+                                            <li><i class="fa fa-envelope"></i> Info@travellers.com</li>
+                                            <li><i class="fa fa-phone"></i> +1 235 654 4569</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 col-lg-offset-1 ">
-                            <div class="hello_wrapper">
-                                <i class="fa fa-envelope"></i>
-                                <div class="tr_contact_wrap">
-                                    <h4>Say Hi</h4>
-                                    <h3 class="contact">info@travellers.com</h3>
+
+                                <div class="col-lg-4 col-md-5 col-sm-4 t_align_c">
+                                    <!-- facebook squre start -->
+                                    <div class="social_box facebook_b_wrap">
+                                        <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                        <div class="social_likes">30000</div>
+                                        <div class="shares_and_likes">shares & Likes</div>
+                                    </div>
+                                    <!-- facebook squre End -->
+                                    <!-- twitter squre start -->
+                                    <div class="social_box twitter_b_wrap">
+                                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                                        <div class="social_likes">9000</div>
+                                        <div class="shares_and_likes">followers</div>
+                                    </div>
+                                    <!-- twitter squre End -->
+                                    <!-- RSS squre start -->
+                                    <div class="social_box rss_b_wrap">
+                                        <a href="#"><i class="fa fa-rss-square"></i></a>
+                                        <div class="social_likes">15000</div>
+                                        <div class="shares_and_likes">subscribers</div>
+                                    </div>
+                                    <!-- RSS squre End -->
+                                    <!-- Linkedin squre start -->
+                                    <div class="social_box linkedin_b_wrap">
+                                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                                        <div class="social_likes">3200</div>
+                                        <div class="shares_and_likes">connections</div>
+                                    </div>
+                                    <!-- Linkedin squre End -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
+
+            </div>
+            <!-- contact details section End -->
             <!-- contact section End -->
-            <!-- counter section start -->
-            <div class="full_width counter_section">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="timer" id="counter1" data-to="1580" data-delay="100" data-speed="3000">1580</div>
-                            <div class="chart" data-animated="bounceIn" data-delay="100">
-                                <div class="percentage-light" data-percent="80">
-                                    <i class="fa fa-globe"></i>
-                                </div>
-                                <div class="counter_title">places to visit the world</div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="timer" id="counter2" data-to="1240" data-delay="100" data-speed="3000">1240</div>
-                            <div class="chart" data-animated="bounceIn" data-delay="100">
-                                <div class="percentage_blue" data-percent="90">
-                                    <i class="fa fa-plane"></i>
-                                </div>
-                                <div class="counter_title">airlines to travel</div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="timer" id="counter3" data-to="3850" data-delay="100" data-speed="3000">3850</div>
-                            <div class="chart" data-animated="bounceIn" data-delay="100">
-                                <div class="percentage_red" data-percent="85">
-                                    <i class="fa fa-car"></i>
-                                </div>
-                                <div class="counter_title">vip transport options</div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="timer" id="counter4" data-to="3850" data-delay="100" data-speed="3000">3850</div>
-                            <div class="chart" data-animated="bounceIn" data-delay="100">
-                                <div class="percentage_skyblue" data-percent="70">
-                                    <i class="fa fa-building-o"></i>
-                                </div>
-                                <div class="counter_title">amazing hotels to stay</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- counter section End -->
 
         </div>
@@ -351,6 +373,7 @@
                     <div class="col-md-4">
                         <aside class="widget widget_text">
                             <a href="Home_01.html"><img src="svg/Logo.svg" alt="footer logo" /></a>
+
                             <p>
                                 In 2015, We launched Travellers with the belief that other travellers would share our desire to experience authentic adventures in a responsible and sustainable manner. <br>
                                 <br>
@@ -1025,6 +1048,39 @@
     </script>
     <!--counter js-->
     <script type="text/javascript" src="js/plugin/counter/jquery.countdown.js">
+
+    </script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=&sensor=false"></script>
+    <script>
+        $(document).ready(function () {
+            var myCenter = new google.maps.LatLng(1.3079669, 103.8452518);
+            function initialize() {
+                var mapProp = {
+                    center: myCenter,
+                    zoom: 7,
+                    scrollwheel: false,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(document.getElementById("bigth_googleMap"), mapProp);
+                var icon = {
+                    url: 'images/map_marke_icon.png'
+                };
+                var marker = new google.maps.Marker({
+                    position: myCenter,
+                    map: map,
+                    title: 'Himanshu Softtech',
+                    icon: icon
+                });
+                marker.setMap(map);
+                var infowindow = new google.maps.InfoWindow({
+                    content: "map"
+                });
+                google.maps.event.addListener(marker, 'click', function () {
+                    infowindow.open(map, marker);
+                });
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        });
     </script>
     <!-- REVOLUTION JS FILES -->
     <script type="text/javascript" src="js/plugin/revolution/js/jquery.themepunch.tools.min.js">
@@ -1060,3 +1116,5 @@
     <script type="text/javascript" src="js/custom.js"></script>
     <!--main js file end-->
 </body>
+
+</html>
