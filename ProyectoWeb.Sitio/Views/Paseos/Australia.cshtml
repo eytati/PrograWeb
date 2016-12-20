@@ -4,9 +4,9 @@
     Layout = "~/Views/Shared/_LayoutPrincipal.cshtml";
 }
 
-<!--content body start-->
+
 <div id="content_wrapper">
-    
+
     <!--Titulo superior con imagen-->
     <div class="page_title" data-stellar-background-ratio="0" data-stellar-vertical-offset="0" style="background-image:url(http://placehold.it/1600x640);">
         <ul>
@@ -20,47 +20,51 @@
         <div class="container">
             <div class="row space_100">
 
+
                 <!-- Columna Izquierda -->
                 <div class="col-lg-3 col-md-3 col-sm-12">
                     <div class="Travelite_left_sidebar_second">
 
+                        <!--Sobre el destino-->
                         <aside class="widget about_us_widget">
-                            <h4 class="widget-title">about us</h4>
+                            <h4 class="widget-title">Sobre</h4>
                             <div class="widgett text_widget">
-                                <p>There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages by injected humour.  There are many variations</p>
+                                <p>Australia es el sexto país más grande del mundo con una superficie de 7 686 850 km². Su capital, Canberra, se encuentra en el Territorio de la Capital Australiana. </p>
                             </div>
 
                         </aside>
                         <aside class="widget hotel_widgets_deals">
-                            <h4 class="widget-title">hotel deals today</h4>
+                            <h4 class="widget-title">Otros Destinos</h4>
                             <div class="widgett">
                                 <ul>
                                     <li>
-                                        <img src="http://placehold.it/78x67" alt="hotel thumb">
+                                        <a href="@Url.Action("Canada", "Paseos")"><img src="http://placehold.it/78x67" alt="hotel thumb" /></a>
+
+                                        <div class="hotel_deals_details"></div>
+                                        <h4>CANADA</h4>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("Irlanda", "Paseos")"><img src="http://placehold.it/78x67" alt="hotel thumb" /></a>
                                         <div class="hotel_deals_details">
-                                            <h4 class="more_text_widget">
-                                                There are many variations of passanger
-                                                There are many variations of passanger
-                                                There are many variations of passanger
-                                            </h4>
+                                            <h4>IRLANDA</h4>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="http://placehold.it/78x67" alt="hotel thumb">
                                         <div class="hotel_deals_details">
-                                            <h4 class="more_text_widget">There are many variations of passanger</h4>
+                                            <h4>COSTA RICA</h4>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="http://placehold.it/78x67" alt="hotel thumb">
                                         <div class="hotel_deals_details">
-                                            <h4 class="more_text_widget">There are many variations of passanger</h4>
+                                            <h4>SINGAPUR</h4>
                                         </div>
                                     </li>
                                     <li>
                                         <img src="http://placehold.it/78x67" alt="hotel thumb">
                                         <div class="hotel_deals_details">
-                                            <h4 class="more_text_widget">There are many variations of passanger</h4>
+                                            <h4>ISLANDIA</h4>
                                         </div>
                                     </li>
                                 </ul>
@@ -68,218 +72,54 @@
 
                         </aside>
 
-                        <aside class="widget hotel_booking_widget">
-                            <h4 class="widget-title">Need Help For Booking?</h4>
-                            <div class="widgett text_widget">
-                                <p>There are many variations of passages of Lorem Ipsum available, but the joy have </p>
-                                <h3><i class="fa fa-phone"></i>1-669-559-4378</h3>
-                                <h5>or</h5>
-                                <button type="submit" value="submit query" class="submit_query btn-yellow btns">
-                                    submit query
-                                </button>
-
-                            </div>
-
-                        </aside>
-
-                        <aside class="widget similar_pacakges">
-                            <h4 class="widget-title">similar Hotels</h4>
-                            <div class="widgett text_widget">
-                                <div class="image_holder">
-                                    <img src="http://placehold.it/209x105" alt="package thumb">
-                                    <h5><a href="#">Cuddil Resort</a></h5>
-                                    <h4>$160/<span>per night</span></h4>
-                                </div>
-
-                                <div class="image_holder">
-                                    <img src="http://placehold.it/209x105" alt="package thumb">
-                                    <h5><a href="#">Arab Palace</a></h5>
-                                    <h4>$270/<span>per night</span></h4>
-                                </div>
-                                <a href="#" class="submit_query btn-yellow btns">view more</a>
-
-                            </div>
-
-                        </aside>
-
                     </div>
                 </div>
-                <!-- left sidebar end -->
-                <!-- right main start -->
+                <!-- Finaliza la columna izquierda-->
+                <!-- Columna Derecha  -->
                 <div class="col-lg-9 col-md-9 col-sm-12">
                     <div class="tour_packages_right_section left_space_40">
                         <div class="tour_packages_details_top hotel_details_package">
 
                             <div class="top_head_bar">
-                                <h4>Marlus Hotel</h4><span class="sub_city">/ Brisbane</span>
+                                <h4>Australia</h4><span class="sub_city"></span>
                             </div>
                             <div class="bottom_desc">
-                                <h5 class="starting_text">Starting from<span>$1000 /</span>per person</h5>
-                                <span class="time_date">8 Miles</span> <span class="from_airport">from airport</span>
-                                <h5 class="includes_text">facilities:</h5>
-                                <!-- desc icons Start-->
+                                <h5 class="starting_text">Valor por noche y vuelo <span>$456/</span>por persona</h5>
                                 <div class="row">
                                     <div class="col-lg-6 top_icons_part">
-
-                                        <ul class="hotel_feature_icons">
-                                            <li>
-                                                <svg version="1.1" class="Layer_fitness" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22.377 25.737" enable-background="new 0 0 22.377 25.737" xml:space="preserve">
-                                                <g>
-                                                <g>
-                                                <path d="M20.47,12.126l1.907-2.103l-1.674-1.518l-1.909,2.104l-4.938,1.162l0.519,2.199l3.685-0.868l-0.98,7.38
-									L0.005,23.495l0.196,2.242h20.944v-5.972l-1.731,0.306L20.47,12.126z M5.077,7.892h2.104l-1.285,5.383l4.296,1.048l1.164,5.911
-									l2.218-0.438l-1.443-7.326l-3.514-0.857l1.428-5.981h-5.81L0.69,8.693l1.479,1.709L5.077,7.892z M7.751,15.292l-2.202-0.508
-									l-0.267,1.154l-4.156-1.075L0.56,17.051l6.403,1.656L7.751,15.292z M10.705,8.787l2.891,0.66l3.736-2.063l-1.094-1.978
-									l-2.98,1.646l-2.049-0.468L10.705,8.787z M10.483,4.6c1.271,0,2.301-1.03,2.301-2.3c0-1.271-1.03-2.3-2.301-2.3
-									S8.182,1.029,8.182,2.3C8.182,3.57,9.213,4.6,10.483,4.6z" />
-								</g>
-							</g>
-						</svg> <br />fitness center
-                                            </li>
-                                            <li>
-                                                <svg version="1.1" class="Layer_swimming" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32.098 22.763" enable-background="new 0 0 32.098 22.763" xml:space="preserve">
-                                                <path d="M32.098,22.763c-0.696,0-1.349-0.152-1.958-0.456c-0.695-0.305-1.392-0.457-2.087-0.457
-							c-0.696,0-1.37,0.152-2.022,0.457c-0.609,0.304-1.262,0.456-1.957,0.456c-0.696,0-1.349-0.152-1.957-0.456
-							c-0.696-0.305-1.392-0.457-2.088-0.457s-1.37,0.152-2.022,0.457c-0.609,0.304-1.262,0.456-1.957,0.456
-							c-0.696,0-1.349-0.152-1.957-0.456c-0.652-0.305-1.326-0.457-2.022-0.457s-1.392,0.152-2.088,0.457
-							c-0.608,0.304-1.261,0.456-1.957,0.456s-1.349-0.152-1.957-0.456c-0.652-0.305-1.326-0.457-2.022-0.457
-							c-0.695,0-1.37,0.152-2.022,0.457C1.37,22.61,0.696,22.763,0,22.763v-2.935c0.696,0,1.37-0.152,2.022-0.456
-							c0.652-0.305,1.327-0.457,2.022-0.457c0.696,0,1.37,0.152,2.022,0.457c0.652,0.304,1.315,0.456,1.989,0.456
-							c0.675,0,1.316-0.152,1.925-0.456c0.652-0.305,1.338-0.457,2.056-0.457c0.717,0,1.402,0.152,2.055,0.457
-							c0.652,0.304,1.315,0.456,1.989,0.456c0.675,0,1.315-0.152,1.925-0.456c0.652-0.305,1.349-0.457,2.088-0.457
-							c0.652,0,1.326,0.152,2.022,0.457c0.608,0.304,1.25,0.456,1.924,0.456c0.675,0,1.338-0.152,1.99-0.456
-							c0.652-0.305,1.337-0.457,2.055-0.457s1.402,0.152,2.055,0.457c0.609,0.304,1.262,0.456,1.958,0.456V22.763L32.098,22.763z
-							M27.465,14.415c1.044,0,1.936-0.37,2.675-1.109s1.109-1.631,1.109-2.674c0-1.044-0.37-1.935-1.109-2.674s-1.642-1.109-2.707-1.109
-							s-1.968,0.37-2.707,1.109s-1.109,1.63-1.109,2.674c0,1.087,0.359,1.989,1.076,2.707C25.41,14.056,26.334,14.415,27.465,14.415z
-							M5.219,16.567c0.262,0.043,0.544,0.13,0.849,0.261c0.652,0.304,1.315,0.456,1.989,0.456c0.675,0,1.316-0.152,1.925-0.456
-							c0.696-0.305,1.381-0.457,2.055-0.457c0.675,0,1.359,0.152,2.056,0.457c0.652,0.304,1.315,0.456,1.989,0.456
-							c0.675,0,1.315-0.152,1.925-0.456c0.695-0.305,1.381-0.457,2.055-0.457s1.359,0.152,2.055,0.457
-							c0.609,0.304,1.262,0.456,1.958,0.456c0.478,0,0.956-0.087,1.435-0.261L19.18,5.675l7.372-1.37c0.565-0.087,1.022-0.326,1.37-0.717
-							c0.348-0.392,0.521-0.87,0.521-1.436c0-0.565-0.217-1.065-0.652-1.5C27.356,0.218,26.856,0,26.291,0
-							c-0.131,0-0.218,0.022-0.261,0.065L14.613,2.087c-0.479,0.13-0.881,0.467-1.207,1.011c-0.326,0.543-0.358,1.142-0.098,1.793
-							l0.065,0.098l0.065,0.098l3,5.348L5.219,16.567L5.219,16.567z" />
-						</svg> <br />swimming pool
-                                            </li>
-                                            <li>
-                                                <svg version="1.1" class="Layer_span" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                                     viewBox="0 0 28.896 25.686" enable-background="new 0 0 28.896 25.686" xml:space="preserve">
-                                                <path d="M18.762,25.687H0v-1.75c0.342,0.271,0.777,0.436,1.246,0.436h16.22L18.762,25.687z M8.119,0
-							C7.113,0,6.297,0.817,6.297,1.822c0,0.625,0.313,1.176,0.795,1.505c0.207-0.572,0.543-1.1,0.987-1.545
-							c0.445-0.445,0.973-0.78,1.546-0.987C9.295,0.314,8.744,0,8.119,0z M7.598,4.775c0,1.919,1.558,3.474,3.475,3.474
-							s3.475-1.558,3.475-3.474c0-1.92-1.558-3.474-3.475-3.474c-0.408,0-0.799,0.07-1.161,0.198C8.927,1.85,8.144,2.63,7.796,3.614
-							C7.668,3.98,7.598,4.37,7.598,4.775z M5.711,9.569c-0.813,1.804-2.587,6.415-3.074,7.575h6.052c0.135-0.328,0.284-0.648,0.448-0.949
-							c0.57-1.064,2.35-1.592,1.926-3.076c-0.003-0.012-0.009-0.023-0.012-0.039l1.594,1.512c0.119,0.113,0.262,0.203,0.414,0.262
-							l4.358,1.664c0.146,0.055,0.299,0.082,0.448,0.082c0.506,0,0.981-0.307,1.17-0.807c0.247-0.646-0.076-1.371-0.725-1.619
-							l-3.853-1.471c-0.18-0.07-0.345-0.174-0.484-0.306c0,0-3.392-3.218-3.396-3.22c-0.143-0.137-0.329-0.226-0.523-0.29
-							c-0.046-0.016-0.095-0.03-0.144-0.043c-0.052-0.015-0.106-0.03-0.162-0.042c-0.847-0.226-1.788-0.417-2.66-0.341
-							C6.803,8.484,6.488,8.557,6.245,8.725C5.965,8.926,5.849,9.267,5.711,9.569z M1.246,23.61h16.537l1.585,1.607
-							c0.149,0.152,0.329,0.27,0.521,0.35c0.189,0.076,0.391,0.119,0.598,0.119h6.754c0.877,0,1.584-0.719,1.572-1.598
-							c-0.016-0.861-0.734-1.545-1.597-1.545h-6.071l-4.127-4.188c-0.319-0.326-0.509-0.459-1.081-0.459c-0.988,0-14.69,0.008-14.69,0.008
-							C0.558,17.905,0,18.464,0,19.153v2.889v0.322C0,23.054,0.558,23.61,1.246,23.61z M26.545,17.864c0-1.99-1.615-3.605-3.605-3.605
-							s-3.605,1.615-3.605,3.605c0,1.988,1.615,3.604,3.605,3.604S26.545,19.856,26.545,17.864z" />
-						</svg> <br />spa services
-                                            </li>
-
-                                        </ul>
-                                        <!-- desc icons End-->
                                     </div>
-
-                                    <div class="col-lg-6">
-
-                                        <div class="top_links">
-                                            <ul>
-                                                <li>
-                                                    <select class="selectpicker" data-live-search="true" title="view all includes">
-                                                        <option data-tokens="hotel-facilities">Hotel Facilities</option>
-                                                        <option data-tokens="fitness-center">fitness center</option>
-                                                        <option data-tokens="swimming-pool">swimming pool</option>
-                                                        <option data-tokens="spa-services">High-Speed Internet</option>
-                                                    </select>
-                                                </li>
-                                                <li>
-                                                    <select class="selectpicker" data-live-search="true" title="view all excludes">
-                                                        <option data-tokens="room_facilities">room facilities</option>
-                                                        <option data-tokens="wifi">Wi-Fi</option>
-                                                        <option data-tokens="room_keys_saprate">Seperate Room Keys</option>
-                                                        <option data-tokens="Air_Conditioner">Air Conditioner</option>
-                                                        <option data-tokens="Wake_Up_Calls">Wake Up Calls</option>
-                                                    </select>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
                                 </div>
 
                             </div>
                         </div>
-                        <!-- slider start -->
+
+                        <!-- Fotos de inicio -->
                         <div class="hotel_thumbnail_slider">
                             <ul class="thumbnail_hotel_slider">
                                 <li><img src="http://placehold.it/730x430" alt="slide"></li>
                                 <li><img src="http://placehold.it/730x430" alt="slide"></li>
                                 <li><img src="http://placehold.it/730x430" alt="slide"></li>
                                 <li><img src="http://placehold.it/730x430" alt="slide"></li>
-                                <li><img src="http://placehold.it/730x430" alt="slide"></li>
-                                <li><img src="http://placehold.it/730x430" alt="slide"></li>
-
                             </ul>
 
+                            <!--fotos del carrusel-->
                             <div id="bx-pager" class="hotel_thumbnail_crousel">
                                 <a data-slide-index="0" href=""><img src="http://placehold.it/730x430" alt="slide"></a>
                                 <a data-slide-index="1" href=""><img src="http://placehold.it/730x430" alt="slide"></a>
                                 <a data-slide-index="2" href=""><img src="http://placehold.it/730x430" alt="slide"></a>
                                 <a data-slide-index="3" href=""><img src="http://placehold.it/730x430" alt="slide"></a>
-                                <a data-slide-index="5" href=""><img src="http://placehold.it/730x430" alt="slide"></a>
-
                             </div>
 
                         </div>
                         <!-- slider end -->
                         <!-- Booking area Start-->
                         <div class="booking_area_section">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available..</p>
+                            <p>
+                                Australia está dividida en seis estados, dos territorios continentales y otros territorios menores. Los estados son Nueva Gales del Sur (NSW), Queensland (QLD), Australia Meridional (SA), Tasmania (TAS), Victoria (VIC) y Australia Occidental (WA).
+                                Australia es uno de los 14 países independientes que conforman Oceanía y es el sexto más grande del mundo. Rodeada por los océanos Índico, Glacial Antártico y Pacífico, está separada de Asia por los mares de Arafura y Timor.
+                            </p>
 
-                            <div class=" full_width booking_form_bg">
-                                <div class="main_content_form">
-                                    <!-- tab_search form start -->
-                                    <form>
-                                        <div class="pullleft check_in_field">
-                                            <label>available on</label>
-                                            <input type="text" id="Check_out_date_tab" placeholder="dd/mm/yyyy">
-                                            <i class="fa fa-calendar"></i>
-                                        </div>
 
-                                        <div class="pullleft room_select_field">
-                                            <label>adults</label>
-                                            <select class="form-control selectpicker" data-live-search="true" id="search_adults">
-                                                <option value="1">01</option>
-                                                <option value="2">02</option>
-                                                <option value="3">03</option>
-                                                <option value="4">04</option>
-                                            </select>
-                                            <i class="fa fa-caret-down"></i>
-                                        </div>
-                                        <div class="pullleft room_select_field">
-                                            <label>kids</label>
-                                            <select class="form-control selectpicker" data-live-search="true" id="search_kids">
-                                                <option value="1">01</option>
-                                                <option value="2">02</option>
-                                                <option value="3">03</option>
-                                                <option value="4">04</option>
-                                            </select>
-                                            <i class="fa fa-caret-down"></i>
-                                        </div>
-                                        <div class="pullleft submit_field">
-                                            <label>total:<span class="total_doller">$1000</span></label>
-                                            <input type="submit" value="BOOK NOW" class="search_tabs">
-                                            <button class="btn tab_search" type="submit"> <i class="glyphicon glyphicon-search"></i></button>
-                                        </div>
-                                    </form>
-                                    <!-- tab_search form End -->
-                                </div>
-
-                            </div>
 
                         </div>
                         <!-- Booking area End -->
@@ -287,168 +127,63 @@
                         <div class="full_width hotel_details_mdl_tab" id="Travelite_middle_tabs">
                             <div class="pcg_tabs_panel">
                                 <ul>
-                                    <li> <a href="#tab_search_1">More Infomation</a></li>
-                                    <li> <a href="#tab_search_2" class="">Show Map</a></li>
+                                    <li> <a href="#tab_search_1">Detalles</a></li>
                                     <li> <a href="#tab_search_3" class="">Review</a></li>
-                                    <li> <a href="#tab_search_4" class="">comments</a></li>
+                                    <li> <a href="#tab_search_4" class="">Comentarios</a></li>
                                 </ul>
                             </div>
-                            <!--  tab content start -->
+
+
+                            <!--  Primera parte  -->
                             <div id="tab_search_1" class="tab_details_part hotel_details_tab">
-
-                                <p>
-                                    There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum.
-                                </p>
-
                                 <div class="inner_content">
-                                    <div class="inner_title">Preference</div>
+                                    <div class="inner_title">Comentarios</div>
                                     <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.
-                                    </p>
-                                </div>
-
-                                <div class="inner_content">
-                                    <div class="inner_title">Hotel Facilities</div>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.
+                                        Va la sub-Parte
                                     </p>
 
-                                    <div class="hotel_facility_list">
-                                        <ul>
-                                            <li> <i class="fa fa-check-square-o"></i> High-speed Internet</li>
-                                            <li><i class="fa fa-check-square-o"></i> Fridge</li>
-                                            <li><i class="fa fa-check-square-o"></i> Play Ground</li>
-                                            <li><i class="fa fa-check-square-o"></i> Air conditioning</li>
-                                            <li><i class="fa fa-check-square-o"></i> TV</li>
-                                            <li><i class="fa fa-check-square-o"></i> Conference Room</li>
-                                            <li><i class="fa fa-check-square-o"></i> Swimming Pool</li>
-                                            <li><i class="fa fa-check-square-o"></i> Washing Machine</li>
-                                            <li><i class="fa fa-check-square-o"></i> Veg / Non Veg</li>
-                                            <li><i class="fa fa-check-square-o"></i> Child Care</li>
-                                            <li><i class="fa fa-check-square-o"></i> Free Room Services</li>
-                                            <li><i class="fa fa-check-square-o"></i> Self Cooking Allowed</li>
-                                            <li><i class="fa fa-check-square-o"></i> Fitness Equipment</li>
-                                            <li><i class="fa fa-check-square-o"></i>Reception Safe</li>
-                                            <li><i class="fa fa-check-square-o"></i>SPA Available</li>
-                                            <li><i class="fa fa-check-square-o"></i>Free Breakfast</li>
-                                            <li><i class="fa fa-check-square-o"></i>Free Parking</li>
-                                            <li><i class="fa fa-check-square-o"></i>Pets Allowed</li>
-                                            <li><i class="fa fa-check-square-o"></i>Kitchen</li>
-                                            <li><i class="fa fa-check-square-o"></i>Bar</li>
-                                        </ul>
-                                    </div>
                                 </div>
-
-                                <div class="inner_content">
-                                    <div class="inner_title">room Facilities</div>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.
-                                    </p>
-
-                                    <div class="hotel_facility_list">
-                                        <ul>
-                                            <li><i class="fa fa-check-square-o"></i>Wi-Fi</li>
-                                            <li><i class="fa fa-check-square-o"></i>Mini Bar</li>
-                                            <li><i class="fa fa-check-square-o"></i>Play Ground</li>
-                                            <li><i class="fa fa-check-square-o"></i>Seperate Room Keys</li>
-                                            <li><i class="fa fa-check-square-o"></i>Daily Cleaning</li>
-                                            <li><i class="fa fa-check-square-o"></i>Kitchen for self cooking</li>
-                                            <li><i class="fa fa-check-square-o"></i>Air Conditioner</li>
-                                            <li><i class="fa fa-check-square-o"></i>Private Bathroom</li>
-                                            <li><i class="fa fa-check-square-o"></i>Fresh Air Balcony</li>
-                                            <li><i class="fa fa-check-square-o"></i>Sound Proofed Rooms</li>
-                                            <li><i class="fa fa-check-square-o"></i>Heater</li>
-                                            <li><i class="fa fa-check-square-o"></i>Wake up calls</li>
-                                            <li><i class="fa fa-check-square-o"></i>Direct Dial Phone</li>
-                                            <li><i class="fa fa-check-square-o"></i>Hair Dryer</li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-
                             </div>
-                            <!--  tab content End -->
-                            <!--  tab content start -->
-                            <div id="tab_search_2" class="tab_details_part hotel_details_tab">
-                                <div class="inner_content">
-                                    <div class="inner_title">Hotel Facilities</div>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.
-                                    </p>
 
-                                    <div class="hotel_facility_list">
-                                        <ul>
-                                            <li> <i class="fa fa-check-square-o"></i> High-speed Internet</li>
-                                            <li><i class="fa fa-check-square-o"></i> Fridge</li>
-                                            <li><i class="fa fa-check-square-o"></i> Play Ground</li>
-                                            <li><i class="fa fa-check-square-o"></i> Air conditioning</li>
-                                            <li><i class="fa fa-check-square-o"></i> TV</li>
-                                            <li><i class="fa fa-check-square-o"></i> Conference Room</li>
-                                            <li><i class="fa fa-check-square-o"></i> Swimming Pool</li>
-                                            <li><i class="fa fa-check-square-o"></i> Washing Machine</li>
-                                            <li><i class="fa fa-check-square-o"></i> Veg / Non Veg</li>
-                                            <li><i class="fa fa-check-square-o"></i> Child Care</li>
-                                            <li><i class="fa fa-check-square-o"></i> Free Room Services</li>
-                                            <li><i class="fa fa-check-square-o"></i> Self Cooking Allowed</li>
-                                            <li><i class="fa fa-check-square-o"></i> Fitness Equipment</li>
-                                            <li><i class="fa fa-check-square-o"></i>Reception Safe</li>
-                                            <li><i class="fa fa-check-square-o"></i>SPA Available</li>
-                                            <li><i class="fa fa-check-square-o"></i>Free Breakfast</li>
-                                            <li><i class="fa fa-check-square-o"></i>Free Parking</li>
-                                            <li><i class="fa fa-check-square-o"></i>Pets Allowed</li>
-                                            <li><i class="fa fa-check-square-o"></i>Kitchen</li>
-                                            <li><i class="fa fa-check-square-o"></i>Bar</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!--  tab content End -->
-                            <!--  tab content start -->
+                            <!--  Segunda Parte -->
                             <div id="tab_search_3" class="tab_details_part hotel_details_tab">
-                                <p>
-                                    There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum.
-                                </p>
+                                <div class="inner_content">
+                                    <div class="inner_title">Comentarios</div>
+                                    <p>
+                                        "otrp"
+                                    </p>
+
+                                </div>
 
                             </div>
-                            <!--  tab content End -->
-                            <!--  tab content start -->
+
+
+                            <!-- Tercera Parte -->
                             <div id="tab_search_4" class="tab_details_part hotel_details_tab">
                                 <div class="inner_content">
-                                    <div class="inner_title">Hotel Facilities</div>
+                                    <div class="inner_title">Comentarios</div>
                                     <p>
-                                        There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.  There are many variations of passages of Lorem Ipsum available, but the joy have suffered alteration in some format, by injected humour.
+                                        Jose Morales: <Br>
+                                        Bueno, lo que merece la pena es pasear por Darling Harbour, y por la zona de la Opera House, luego otras cosas como subir a la torre, subir por el puente de la bahia, aunque ya dije que es muy caro, ojo hay que hacer reserva para el puente.
+                                        Esta muy bien el museo australiano, el Taronga Zoo, el Acuario merece mucho la pena.
+                                        No te pierdas una vuelta por Chinatown, y comer en uno de sus restaurantes...
+                                        Si se me ocurre algo mas ya lo pongo. De todas formas, en Sydney hay muchisima informacion, a cualquier sitio que vayas tienes folletos de propaganda de actividades para realizar, pero vamos a lo de siempre, es un poco carillo.
+                                        <Br>
+                                        <Br>
+                                        Maria Rodriguez: <Br>
+                                        Sydney es una ciudad preciosa, la bahia es espectacular, buena gente y mucho ambiente.
+                                        Yo creo que 5 dias es suficiente para conocer un poco la ciudad...ya sabemos que para concer una ciudad verdaderamente hay que vivir un tiempo en ella...pero en plan turístico yo creo que da tiempo.
+                                        A mi no me parecio una ciudad muy cara, me gustó como está estructurada, sus tiendas. bares, pubs, Puertos, playas, parques, playas etc....... es muy completa.
+
+                                        Un saludo.
                                     </p>
-
-                                    <div class="hotel_facility_list">
-                                        <ul>
-                                            <li> <i class="fa fa-check-square-o"></i> High-speed Internet</li>
-                                            <li><i class="fa fa-check-square-o"></i> Fridge</li>
-                                            <li><i class="fa fa-check-square-o"></i> Play Ground</li>
-                                            <li><i class="fa fa-check-square-o"></i> Air conditioning</li>
-                                            <li><i class="fa fa-check-square-o"></i> TV</li>
-                                            <li><i class="fa fa-check-square-o"></i> Conference Room</li>
-                                            <li><i class="fa fa-check-square-o"></i> Swimming Pool</li>
-                                            <li><i class="fa fa-check-square-o"></i> Washing Machine</li>
-                                            <li><i class="fa fa-check-square-o"></i> Veg / Non Veg</li>
-                                            <li><i class="fa fa-check-square-o"></i> Child Care</li>
-                                            <li><i class="fa fa-check-square-o"></i> Free Room Services</li>
-                                            <li><i class="fa fa-check-square-o"></i> Self Cooking Allowed</li>
-                                            <li><i class="fa fa-check-square-o"></i> Fitness Equipment</li>
-                                            <li><i class="fa fa-check-square-o"></i>Reception Safe</li>
-                                            <li><i class="fa fa-check-square-o"></i>SPA Available</li>
-                                            <li><i class="fa fa-check-square-o"></i>Free Breakfast</li>
-                                            <li><i class="fa fa-check-square-o"></i>Free Parking</li>
-                                            <li><i class="fa fa-check-square-o"></i>Pets Allowed</li>
-                                            <li><i class="fa fa-check-square-o"></i>Kitchen</li>
-                                            <li><i class="fa fa-check-square-o"></i>Bar</li>
-                                        </ul>
-                                    </div>
                                 </div>
-
-
                             </div>
-                            <!--  tab content End -->
 
                         </div>
-                        <!-- package tabs End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
