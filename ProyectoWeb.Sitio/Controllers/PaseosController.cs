@@ -8,7 +8,6 @@ namespace ProyectoWeb.Sitio.Controllers
 {
     public class PaseosController : Controller
     {
-        // GET: Paseos
         public ActionResult Index()
         {
             return View();
