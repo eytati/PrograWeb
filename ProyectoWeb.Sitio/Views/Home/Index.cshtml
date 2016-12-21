@@ -248,28 +248,30 @@
                 <div class="car_booking_section">
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="hotel_feature_box">
-                            <img src="~/Content/images/Home/Canada/canadian-flag.jpg" class="img-responsive" alt="car">
+                            <a href="@Url.Action("Canada","Paseos")"><img src="~/Content/images/Home/Canada/canadian-flag.jpg" class="img-responsive" alt="car"></a>
+                            
                             <div class="feature_overlay_second">
-                                <div class="bottom_first"><a href="#">Canadá</a></div>
-                                <div class="bottom_second">Catarátas del Niagara</div>
+                                <div class="bottom_first"><a href="@Url.Action("Canada","Paseos")">Canadá</a></div>
+                                <div class="bottom_second"><a href="@Url.Action("Canada","Paseos")"></a>Catarátas del Niagara</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="hotel_feature_box">
-                            <img src="~/Content/images/Home/Australia/australian-flag.jpg" class="img-responsive" alt="car">
+                            <a href="@Url.Action("Australia","Paseos")"><img src="~/Content/images/Home/Australia/australian-flag.jpg" class="img-responsive" alt="car"></a>
+                            
                             <div class="feature_overlay_second">
-                                <div class="bottom_first"><a href="#">Australia</a></div>
-                                <div class="bottom_second">Sidney</div>
+                                <div class="bottom_first"><a href="@Url.Action("Australia","Paseos")">Australia</a></div>
+                                <div class="bottom_second">a href="@Url.Action("Australia", "Paseos")"></a>Sidney</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="hotel_feature_box">
-                            <img src="~/Content/images/Home/Irlanda/ireland-flag.jpg" class="img-responsive" alt="car">
+                            <a href="@Url.Action("Irlanda","Paseos")"><img src="~/Content/images/Home/Irlanda/ireland-flag.jpg" class="img-responsive" alt="car"></a>
                             <div class="feature_overlay_second">
-                                <div class="bottom_first"><a href="#">Irlanda</a></div>
-                                <div class="bottom_second">Dublim</div>
+                                <div class="bottom_first"><a href="@Url.Action("Irlanda","Paseos")">Irlanda</a></div>
+                                <div class="bottom_second"><a href="@Url.Action("Irlanda", "Paseos")"></a>Dubli</div>
                             </div>
                         </div>
                     </div>
@@ -382,6 +384,7 @@
         </div>
 
     </div>
+
     <!-- Termina icono circular -->
     <!-- Termina seccion de caracteristicas-->
     <div class="full_width our_feature_section">
@@ -394,7 +397,7 @@
                 <div class="why_choose_Travelite">
                     <div class="col-md-3 col-sm-6">
                         <div class="best_feature_wrapper">
-                            <div class="best_feature_icon"><i class="fa fa-car"></i><span class="icon_overlay"></span></div>
+                            <div class="best_feature_icon"><a href="@Url.Action("Index", "Paseos")"><i class="fa fa-car"></i><span class="icon_overlay"></span></a></div>
                             <h3>Destinos antes no conocidos</h3>
                             <p>Gran variedad de destinos antes no visitados con magníficas vistas y experiencias inigualables</p>
                         </div>
@@ -402,7 +405,7 @@
 
                     <div class="col-md-3 col-sm-6">
                         <div class="best_feature_wrapper">
-                            <div class="best_feature_icon"><i class="fa fa-users"></i><span class="icon_overlay"></span></div>
+                            <div class="best_feature_icon"> <a href="@Url.Action("Index", "Promociones")"><i class="fa fa-users"></i><span class="icon_overlay"></span></a></div>
                             <h3>Ofertas increíbles</h3>
                             <p>Ofertas increíbles, que se ajustan a tus necesidades y planes tanro grupales, en pareja o individuales.</p>
                         </div>
@@ -410,7 +413,7 @@
 
                     <div class="col-md-3 col-sm-6">
                         <div class="best_feature_wrapper">
-                            <div class="best_feature_icon"><i class="fa fa-headphones"></i><span class="icon_overlay"></span></div>
+                            <div class="best_feature_icon"><a href="@Url.Action("Index", "Nosotros")"><i class="fa fa-headphones"></i><span class="icon_overlay"></span></a></div>
                             <h3>Servicio al cliente 24/7</h3>
                             <p>Disponiblidad 100% para todos nuestros clientes en cualquier parte del mundo.</p>
                         </div>
@@ -418,13 +421,11 @@
 
                     <div class="col-md-3 col-sm-6">
                         <div class="best_feature_wrapper">
-                            <div class="best_feature_icon"><i class="fa fa-life-ring"></i><span class="icon_overlay"></span></div>
+                            <div class="best_feature_icon"><a href="@Url.Action("Index", "Promociones")"><i class="fa fa-life-ring"></i><span class="icon_overlay"></span></a></div>
                             <h3>Precios más bajos del mercado</h3>
                             <p>Paquetes destinados a ajustarse a los bolsillos de nuestros clientes.</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
@@ -447,9 +448,7 @@
                 <div class="col-lg-4 col-sm-4 col-md-4 pad_left">
                     <div class="row">
                         <div class="gallery_thumb_wrapper">
-                            <img src="~/Content/images/Home/Budapest.jpg" alt="gallery thumb" class="img-responsive">
-                            <div class="gallery_thumb_overlay">
-                            </div>
+                            <a href="@Url.Action("Index", "Paseos")"><img src="~/Content/images/Home/Budapest.jpg" alt="gallery thumb" class="img-responsive"/></a>
                         </div>
                     </div>
                 </div>
@@ -458,9 +457,7 @@
                 <div class="col-lg-4 col-sm-4 col-md-4 pad_left">
                     <div class="row">
                         <div class="gallery_thumb_wrapper">
-                            <img src="~/Content/images/Home/Tren.JPG" alt="gallery thumb" class="img-responsive">
-                            <div class="gallery_thumb_overlay">
-                            </div>
+                            <a href="@Url.Action("Index", "Paseos")"><img src="~/Content/images/Home/Tren.JPG" alt="gallery thumb" class="img-responsive"></a>
                         </div>
                     </div>
                 </div>
@@ -469,9 +466,7 @@
                 <div class="col-lg-4 col-sm-4 col-md-4 pad_left">
                     <div class="row">
                         <div class="gallery_thumb_wrapper">
-                            <img src="~/Content/images/Home/Guanacaste.JPG" alt="gallery thumb" class="img-responsive">
-                            <div class="gallery_thumb_overlay">
-                            </div>
+                            <a href="@Url.Action("Index", "Paseos")"><img src="~/Content/images/Home/Guanacaste.JPG" alt="gallery thumb" class="img-responsive"></a>
                         </div>
                     </div>
                 </div>
@@ -480,9 +475,7 @@
                 <div class="col-lg-4 col-sm-4 col-md-4 pad_left">
                     <div class="row">
                         <div class="gallery_thumb_wrapper">
-                            <img src="~/Content/images/Home/Iguana.JPG" alt="gallery thumb" class="img-responsive">
-                            <div class="gallery_thumb_overlay">
-                            </div>
+                            <a href="@Url.Action("Index", "Paseos")"><img src="~/Content/images/Home/Iguana.JPG" alt="gallery thumb" class="img-responsive"></a>
                         </div>
                     </div>
                 </div>
@@ -491,9 +484,7 @@
                 <div class="col-lg-4 col-sm-4 col-md-4 pad_left">
                     <div class="row">
                         <div class="gallery_thumb_wrapper">
-                            <img src="~/Content/images/Home/Bote_Bayahibe4.jpg" alt="gallery thumb" class="img-responsive">
-                            <div class="gallery_thumb_overlay">
-                            </div>
+                            <a href="@Url.Action("Index", "Paseos")"><img src="~/Content/images/Home/Bote_Bayahibe4.jpg" alt="gallery thumb" class="img-responsive"></a>
                         </div>
                     </div>
                 </div>
@@ -502,10 +493,7 @@
                 <div class="col-lg-4 col-sm-4 col-md-4 pad_left">
                     <div class="row">
                         <div class="gallery_thumb_wrapper">
-                            <img src="~/Content/images/Home/Chicago.JPG" alt="gallery thumb" class="img-responsive">
-                            <div class="gallery_thumb_overlay">
-                            </div>
-                        </div>
+                            <a href="@Url.Action("Index", "Paseos")"><img src="~/Content/images/Home/Chicago.JPG" alt="gallery thumb" class="img-responsive"></a>
                     </div>
                 </div>
                 <!-- item 5 End -->
