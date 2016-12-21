@@ -1,21 +1,10 @@
-/*
-Copyright (c) 2016 Himanshu Softtech
-------------------------------------------------------------------
-[Master about Stylesheet]
 
-Project:	Travelite - Tours and Travels Online Booking HTML
-Version:	1.0.0
-Assigned to:	Themeforest
--------------------------------------------------------------------*/
- /* common css start */
 a:hover{
 		text-decoration:none;
 }
 textarea:focus{
 	outline:none;
 }
- /* common css start end */
-
 .ds_traveller_story {
     padding: 100px 0px;
 }

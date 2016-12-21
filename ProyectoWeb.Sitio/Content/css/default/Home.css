@@ -1,16 +1,5 @@
 
 
-/*
-Copyright (c) 2016 Himanshu Softtech
-------------------------------------------------------------------
-[Home one Stylesheet]
-
-Project:	Travelite - Tours and Travels Online Booking HTML
-Version:	1.0.0
-Assigned to:	Themeforest
--------------------------------------------------------------------*/
-/*-------placeholder css-----*/
-
 select{
 	-webkit-appearance: initial;
 }
@@ -39,17 +28,6 @@ select{
    color: #808b8d;
 }
 
-/*.submit_field input::-webkit-input-placeholder{
-	color:#fff;
-}
-.submit_field input::-moz-input-placeholder{
-	color:#fff;
-}
-.submit_field input::-ms-input-placeholder{
-	color:#fff;
-}*/
-
-/*-------placeholder css-----*/
 .inner_ovelay, img, .submit_subscribe, .feature_overlay, .feature_box_content, .feature_overlay h4, .overlay_package, a, .large_slide_btn, i, .feature_overlay {
 	-webkit-transition: all 0.25s;
     -moz-transition: all 0.25s;
@@ -109,18 +87,7 @@ select{
 	 background: #ffffff;
     color: #fdb714;
 }
-/*----slider text css End------*/
 
-
-
-/*.slider_form_main{
-}*/
-/*.slider_tabs{
-}
-	.slider_tabs .wsa_tab ul li {
-    float: left;
-    list-style: none;
-}*/
 .main_content_form{
 		float:left;
 		width:100%;
@@ -135,36 +102,12 @@ select{
     padding: 30px 35px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
-/*.slider_tabs .wsa_tab ul li {
-    float: left;
-    list-style: none;
-  
-   
-}
-.slider_tabs .wsa_tab ul li a {
-    color: #fff;
-    font-size: 22px;
-    padding: 15px 39px;
-    float: left;
-    background: #fdb714;
-	 border: 1px solid #fff;
-}
-.slider_tabs .wsa_tab ul li a.active {
-    background: #86b817;
-    border-color: transparent;
-}*/
 .slider_tab_main {
     position: relative;
     float: left;
     width: 100%;
 }
-/*.home_tabs_search {
-    position: relative;
-    bottom: 0;
-    margin-top: -72px;
-    float: left;
-    width: 100%;
-}*/
+
 .pull_left{
 		float:left;
 }
@@ -172,15 +115,7 @@ select{
 		margin-right:1%;
 		position:relative;
 }
-/*.destination_field {
-    width: 213px;
-}*/
-/*.check_in_field {
-    width: 165px;
-}*/
-/*.room_select_field {
-    width: 98px;
-}*/
+
 .main_content_form input, .main_content_form select {
     width: 100%;
 }
@@ -201,40 +136,15 @@ select{
     height: 32px;
     padding-left: 12px;
     border-radius: 0px;
-	color: #2b2b2b;
-/*}
-.submit_field {
-    width: 165px;
-    margin-right: 0px !important;
-    margin-top: 25px;
-}*/
-/*/*.submit_field .tab_search {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 37px;
-    height: 32px;
-    background: #fdb714;
-    border-radius: 0px;
-    color: #fff;
-}*/*/
+    color: #2b2b2b;
+}
+
 .main_content_form .pull_left label {
     text-transform: uppercase;
     color: #2b2b2b;
     font-family: Montserrat;
     font-weight: 400;
 }
-/*.submit_field  .search_tabs {
-    background: #86b817;
-    color: #ffffff;
-    font-family: Lato;
-    padding-left: 10px;
-    text-align: center;
-    border: none;
-    padding-right: 38px;
-}*/
-
-/*----world section css start-----*/
 
 .Travelite_world_section {
     padding: 99px 0px;
@@ -402,31 +312,7 @@ select{
     display: inline-block;
     width: 111px;
 }
- /* ractangle part css end */
-/*----world section css end-----*/
-
-/* resonsive media query */
-/*@media (min-width:992px) and (max-width:1200px){*/
-	/*.destination_field {
-		width: 175px;
-	}*/
-	/*.check_in_field {
-		width: 130px;
-	}*/
-	/*.room_select_field {
-		width: 85px;
-	}*/
-	/*.submit_field {
-	  width: 125px;
-	}*/
-	
-	/*-----ractangle boxes---*/
-	/*.ractangle_box_cover .ractangle_inner .inner_ovelay{
-		padding-top: 70px;
-	}*/
-/*}*/
-
-/* feature boxes css start */
+ 
 
 .Travelite_feature_section {
     background: #f4f4f4;
@@ -607,10 +493,6 @@ select{
     right: 49px;
 }
 
-
-/* feature boxes css END */
-
-/*------package section css start----------*/
 .Travelite_package_section{
 		background: url('../images/Home/packge_bg.jpg')no-repeat;
 		background-size:cover;
@@ -729,9 +611,7 @@ select{
     float: left;
     width: 100%;
 }
-/*------package section css End----------*/
 
-/*------home subscribe section css start----*/
 
 .home_subscribe_section{
 	background: #000000 url('../images/Home/subscribe_bg.jpg')no-repeat;
