@@ -521,7 +521,6 @@
     <Content Include="Views\Paseos\Irlanda.cshtml" />
     <Content Include="Views\Paseos\Canada.cshtml" />
     <Content Include="Views\Nosotros\Index.cshtml" />
-    <Content Include="Views\Shared\_Canada.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
